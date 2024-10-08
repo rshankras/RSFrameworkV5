@@ -11,6 +11,7 @@
 		484D7A232CB4B6660002B911 /* RSFrameworkV5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D7A182CB4B6660002B911 /* RSFrameworkV5.framework */; };
 		484D7A282CB4B6660002B911 /* RSFrameworkV5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D7A272CB4B6660002B911 /* RSFrameworkV5Tests.swift */; };
 		484D7A292CB4B6660002B911 /* RSFrameworkV5.h in Headers */ = {isa = PBXBuildFile; fileRef = 484D7A1B2CB4B6660002B911 /* RSFrameworkV5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		484D7A332CB4B67C0002B911 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D7A322CB4B67C0002B911 /* AnimatedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		484D7A1C2CB4B6660002B911 /* RSFrameworkV5.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RSFrameworkV5.docc; sourceTree = "<group>"; };
 		484D7A222CB4B6660002B911 /* RSFrameworkV5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSFrameworkV5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484D7A272CB4B6660002B911 /* RSFrameworkV5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFrameworkV5Tests.swift; sourceTree = "<group>"; };
+		484D7A322CB4B67C0002B911 /* AnimatedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				484D7A1B2CB4B6660002B911 /* RSFrameworkV5.h */,
+				484D7A322CB4B67C0002B911 /* AnimatedButton.swift */,
 				484D7A1C2CB4B6660002B911 /* RSFrameworkV5.docc */,
 			);
 			path = RSFrameworkV5;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484D7A332CB4B67C0002B911 /* AnimatedButton.swift in Sources */,
 				484D7A1D2CB4B6660002B911 /* RSFrameworkV5.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 		484D7A302CB4B6660002B911 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,6 +429,7 @@
 		484D7A312CB4B6660002B911 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
